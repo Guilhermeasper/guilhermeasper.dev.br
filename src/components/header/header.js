@@ -7,14 +7,14 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div className="header">
-			<div className="logo">Overreact</div>
+			<div className="logo">Guilherme</div>
 			<div className="menu">
 				<div className="web-menu">
 					<Header_Web />
 				</div>
 				<div className="mobile-menu">
 					<div onClick={()=> setIsOpen(!isOpen)}>
-						<i class="fi-rr-apps"></i>
+						<i class="fi-rr-apps menu-icon"></i>
 					</div>
                     {isOpen && <Header_Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
 				</div>
