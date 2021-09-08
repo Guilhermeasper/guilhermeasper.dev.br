@@ -1,35 +1,35 @@
 import React from 'react'
 import "./header-web.css"
 
-function Header_Web() {
+function HeaderWeb() {
     return (
         <div className="header-web">
             <div className="web-option">
                 <a href="#project">
-                    <i class="fi-rr-edit option-icon"></i>
-                    Projects
+                    <i className="fi-rr-edit option-icon"></i>
+                    Projetos
                 </a>
             </div>
             <div className="web-option">
                 <a href="#skills">
-                    <i class="fi-rr-diploma option-icon"></i>
+                    <i className="fi-rr-diploma option-icon"></i>
                     Skills
                 </a>
             </div>
             <div className="web-option">
                 <a href="#work">
-                    <i class="fi-rr-briefcase option-icon"></i>
-                    Work
+                    <i className="fi-rr-briefcase option-icon"></i>
+                    Trabalho
                 </a>
             </div>
             <div className="web-option">
                 <a href="#contact">
-                    <i class="fi-rr-portrait option-icon"></i>
-                    Contact
+                    <i className="fi-rr-portrait option-icon"></i>
+                    Contato
                 </a>
             </div>
         </div>
     )
 }
 
-export default Header_Web
+export default HeaderWeb

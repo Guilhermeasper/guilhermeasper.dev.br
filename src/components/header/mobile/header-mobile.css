@@ -1,11 +1,7 @@
 .header-mobile {
     background-color: white;
-    height: 100vh;
+    height: 30vh;
     width: 40vw;
-    position: absolute;
-    right: 0px;
-    top: -6px;
-    padding: 18px 12px;
     display: flex;
     flex-direction: column;
 }
@@ -19,9 +15,8 @@
 .mobile-options {
     display: flex;
     flex-direction: column;
+    justify-self: flex-start;
     width: 100%;
-    padding-top: 24px;
-    align-items: center;
     height: 100%;
 }
 

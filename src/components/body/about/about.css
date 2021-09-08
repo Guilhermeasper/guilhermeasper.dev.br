@@ -1,0 +1,61 @@
+.about {
+    padding-bottom: 48px;
+}
+
+.about-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-photo {
+    height: 340px;
+    border-radius: 100%;
+    padding-top: 20px;
+}
+
+.about-info {
+    font-size: 32px;
+}
+
+.welcome {
+    color: blue;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1024px) {
+    .profile-photo{
+        height: 280px;
+    }
+
+    .about-info {
+        font-size: 22px;
+    }
+
+    .welcome {
+        color: blue;
+        font-size: 48px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-photo{
+        height: 240px;
+    }
+
+    .about-info {
+        font-size: 20px;
+    }
+
+    .welcome {
+        font-size: 32px;
+    }
+}
