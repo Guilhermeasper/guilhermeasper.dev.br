@@ -4,7 +4,7 @@ import "./skills.css"
 function Skills() {
     return (
         <div>
-            Skills component
+            <label className="section-title">Skills</label>
         </div>
     )
 }

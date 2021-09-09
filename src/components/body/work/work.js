@@ -4,7 +4,7 @@ import "./work.css"
 function Work() {
     return (
         <div>
-            Work component
+            <label className="section-title">Trabalho</label>
         </div>
     )
 }
