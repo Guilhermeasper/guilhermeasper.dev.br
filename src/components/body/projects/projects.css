@@ -1,0 +1,10 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+}
