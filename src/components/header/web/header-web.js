@@ -5,7 +5,7 @@ function HeaderWeb() {
     return (
         <div className="header-web">
             <div className="web-option">
-                <a href="#project">
+                <a href="#projects">
                     <i className="fi-rr-edit option-icon"></i>
                     Projetos
                 </a>
