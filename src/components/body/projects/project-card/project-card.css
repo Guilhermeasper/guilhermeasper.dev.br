@@ -25,7 +25,7 @@
 
 .project-tags {
     display: flex;
-    max-width: 60%;
+    max-width: 80%;
     flex-wrap: wrap;
 }
 
@@ -62,4 +62,24 @@
     display: flex;
     align-items: center;
     mask-repeat: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .project-photo {
+        width: 200px;
+    }
+
+    .project-card {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .project-info {
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+
+    .project-tags {
+        max-width: 100%;
+    }
 }

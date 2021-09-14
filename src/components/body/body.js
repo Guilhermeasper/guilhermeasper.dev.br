@@ -1,4 +1,5 @@
 import React from 'react'
+import Separator from '../common/separator/separator'
 import About from './about/about'
 import "./body.css"
 import Contact from './contact/contact'
@@ -13,15 +14,19 @@ function Body() {
                 <About />
             </section>
             <section id="projects">
+                <Separator />
                 <Projects />
             </section>
             <section id="skills">
+                <Separator />
                 <Skills />
             </section>
             <section id="work">
+                <Separator />
                 <Work />
             </section>
             <section id="contact">
+                <Separator />
                 <Contact />
             </section>
         </div>
