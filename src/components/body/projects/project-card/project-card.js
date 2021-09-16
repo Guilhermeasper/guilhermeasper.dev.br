@@ -10,14 +10,14 @@ function ProjectCard({ project }) {
 					{project.demo && (
 						<a className="project-link" href="{project.demo}">
 							<div className="link-button">
-								<i className="fi-rr-globe"></i>Demo
+								<i className="fi-rr-globe icon-link"></i>Demo
 							</div>
 						</a>
 					)}
                     {project.github && (
 						<a className="project-link" href="{project.github}">
 							<div className="link-button">
-                                <i className="devicon-github-original colored"></i>Github
+                                <i className="devicon-github-original icon-link"></i>Github
 							</div>
 						</a>
 					)}

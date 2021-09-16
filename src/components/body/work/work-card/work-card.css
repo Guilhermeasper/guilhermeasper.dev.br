@@ -1,51 +1,55 @@
 .work-card {
-    padding: 8px;
-    width: 45%;
-    margin-top: 16px;
-    margin-right: 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row-reverse;
+	padding: 16px;
+	width: 40%;
+	margin-top: 16px;
+	margin-right: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+	border-width: 3px;
+	border-style: solid;
+    border-radius: 16px;
+	border-color: rgb(219, 219, 255);
 }
 
 .company-name {
-    font-size: 18px;
-    font-weight: 600;
+	font-size: 18px;
+	font-weight: 600;
 }
 
-.work-logo{
-    height: 100px;
-    border-radius: 100%;
-    margin-left: 20px;
+.work-logo {
+	height: 100px;
+	border-radius: 100%;
+	margin-left: 20px;
 }
 
 .work-info {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
 }
 
 .work-dates {
-    color: rgb(145, 145, 145);
+	color: rgb(145, 145, 145);
 }
 
 .work-description {
-    text-align: left;
+	text-align: left;
 }
 
-@media only screen and (max-width: 720px){
-    .work-card {
-        flex-direction: column;
-        width: 100%;
-        align-items: flex-start;
-    }
+@media only screen and (max-width: 720px) {
+	.work-card {
+		flex-direction: column;
+		width: 100%;
+		align-items: flex-start;
+	}
 
-    .company-name {
-        margin-top: 10px;
-    }
+	.company-name {
+		margin-top: 10px;
+	}
 
-    .work-logo{
-        margin-left: 0px;
-    }
+	.work-logo {
+		margin-left: 0px;
+	}
 }
