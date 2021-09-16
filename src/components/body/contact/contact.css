@@ -1,0 +1,54 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contact-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+.contact-left {
+    max-width: 60%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.download {
+    background-color: rgb(22, 22, 90);
+    color: white;
+    padding: 8px 16px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+a, icon {
+    color: white;
+    text-decoration: none;
+}
+
+.download-message {
+    margin-left: 6px;
+}
+
+@media only screen and (max-width: 720px) {
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-left{
+        max-width: 100%;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .message{
+        margin-bottom: -12px;
+    }
+}
