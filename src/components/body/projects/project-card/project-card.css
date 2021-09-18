@@ -38,11 +38,11 @@
 
 .tag {
     padding: 4px 8px;
-    background-color: rgb(23, 23, 94);
+    background-color: rgb(233, 233, 253);
     border-radius: 6px;
     margin-right: 6px;
     margin-bottom: 4px;
-    color: white;
+    color: black;
 }
 
 .project-links a {
@@ -59,7 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(23, 23, 94);
+    background-color: rgb(50, 50, 192);
     width: max-content;
     padding: 4px 8px;
     border-radius: 6px;
