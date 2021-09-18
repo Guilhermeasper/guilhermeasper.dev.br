@@ -1,0 +1,12 @@
+.footer {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+a {
+    color: black;
+}
