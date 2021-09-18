@@ -26,9 +26,13 @@
     border-radius: 8px;
 }
 
-a, icon {
+.download a i {
     color: white;
     text-decoration: none;
+}
+
+.download a span {
+    color: white;
 }
 
 .download-message {

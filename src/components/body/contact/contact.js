@@ -8,7 +8,7 @@ function Contact() {
             <label className="section-title">Contato</label>
             <div className="contact-container">
                 <div className="contact-left">
-                    <p className="message">Gostou do que viu até aqui? Me chama pra gente bater um papo</p>
+                    <p className="message">Gostou do que viu até aqui? Me chama pra gente bater um papo!</p>
                     <SocialContact />
                 </div>
                 <div className="download">
