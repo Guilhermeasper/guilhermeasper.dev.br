@@ -57,25 +57,21 @@
 
 .link-button {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: rgb(50, 50, 192);
-    width: max-content;
-    padding: 4px 8px;
+    padding: 4px;
     border-radius: 6px;
     margin-right: 6px;
     color: white;
 }
 
-.link-button a {
-    display: flex;
-    align-items: center;
-    mask-repeat: 4px;
-}
-
 .icon-link {
     margin-right: 4px;
     color: white;
+}
+
+.link-button i[class^="fi-rr-"], .link-button i[class*=" fi-rr-"], .link-button span[class^="fi-rr-"], .link-button span[class*="fi-rr-"] {
+    margin-bottom: -4px;
 }
 
 @media only screen and (max-width: 1024px) {
