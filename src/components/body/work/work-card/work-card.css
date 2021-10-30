@@ -1,6 +1,7 @@
 .work-card {
 	padding: 16px;
 	width: 40%;
+    min-height: 250px;
 	margin-top: 16px;
 	margin-right: 24px;
 	display: flex;
@@ -20,7 +21,6 @@
 
 .work-logo {
 	height: 100px;
-	border-radius: 100%;
 	margin-left: 20px;
 }
 

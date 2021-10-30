@@ -8,8 +8,8 @@ function About() {
             <div className="about-top">
                 <div className="about-info">
                     <span className="welcome">Bem vindo</span>
-                    <br />Eu sou Guilherme Afonso, 
-                    <br /> estudo Ciência da computação, 
+                    <br /> Me chamo Guilherme Afonso, 
+                    <br /> estudante de Ciência da computação, 
                     <br /> futuro engenheiro de software e
                     <br /> youtuber nas horas vagas
                 </div>
