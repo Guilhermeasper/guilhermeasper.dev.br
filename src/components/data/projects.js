@@ -6,7 +6,7 @@ export const ProjectData = [
         tags: ["Chrome API", "HTML", "CSS"],
         demo: "https://chrome.google.com/webstore/detail/assiste-comigo/piheldmfeoihbaeckmhdmbjbidbdbfgl?hl=pt-BR",
         github: "",
-        image: "https://lh3.googleusercontent.com/nMqNR1BsECde8qRdsFL63-jwnkupFmqHhxxwRTtwpOZ16345JQvA52r3lbC1rIgIuY7TEL-X8niTdGfAGZgP30RqTQ=w128-h128-e365"
+        image: require("../../assets/icons/assiste-comigo.png").default,
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const ProjectData = [
         tags: ["NodeJS", "Angular"],
         demo: "https://radar-covid-bonfinopolis.web.app/",
         github: "https://github.com/covidmunicipal/covid19-dashboard-bonfinopolis-de-minas",
-        image: "https://erickalmeida.com.br/_nuxt/img/covidmunicipal-icon.405424d.svg"
+        image: require("../../assets/icons/covidmunicipal.svg").default,
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ export const ProjectData = [
         tags: ["Java", "React"],
         demo: "https://dikastis.cin.ufpe.br",
         github: "",
-        image: "https://dikastis.cin.ufpe.br/static/media/d_escuro.2e3f1534.png"
+        image: require("../../assets/icons/dikastis.png").default,
     },
     {
         id: 2,
@@ -33,6 +33,6 @@ export const ProjectData = [
         tags: ["NodeJS", "DiscordJS"],
         demo: "",
         github: "https://github.com/tiago-ds/Public-MarquinhosBOT",
-        image: "https://camo.githubusercontent.com/1afbb372338a49f621d58c734e24d9e5e15383d1ae42d2f93860d10bb5ca6ebd/68747470733a2f2f692e696d6775722e636f6d2f4b74664b5135682e6a7067"
+        image: require("../../assets/icons/marquinhos.jpg").default,
     }
 ]
